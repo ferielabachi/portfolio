@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://ferielabachi.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,9 +22,11 @@
     "react-icons": "^2.2.5",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.13"
+    "react-scripts": "0.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
