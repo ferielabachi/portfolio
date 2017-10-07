@@ -18,12 +18,12 @@ import './assets/css/Contact.min.css';
 
 class App extends Component
 {
-  render(){
+  render() {
     return(
    		<Router>
     		<div className="App">
       			<Header />
-              
+              <Route exact path="/portfolio/" component={ Home } />
 	      			<Route exact path="/" component={ Home } />
 	      			<Route exact path="/contact" component={ Contact } />
 					    <Route exact path="/about" component={ About } />
