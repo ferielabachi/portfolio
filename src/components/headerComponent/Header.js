@@ -62,13 +62,14 @@ class Header extends Component
 		}
 	}
 
-	render() {
-		return (
-			<div className="container-fluid" id="home" /*onLoad={this.initPage}*/ >	
+	render(){
+		return(
+			<section className="container-fluid" id="home" /*onLoad={this.initPage}*/ >	
 				<header className="row">
 					<Glyphicon id="glyph" glyph="align-justify" onClick={this.displayMenu}/>
 					<nav id="menu">
 						<ul className="col-offset-md-10">
+							
 							<li><Link to="/" onClick={this.initColorHome}>home</Link></li>
 	        				<li><Link to="/contact" onClick={this.initColorPage} >contact</Link></li>
 	        				<li><Link to="/about" onClick={this.initColorPage}>about</Link></li>
@@ -83,7 +84,7 @@ class Header extends Component
 
 			 		<div className="clear"></div>
 	 			</header>
-	 		</div>	
+	 		</section>	
 		);
 	}
 }

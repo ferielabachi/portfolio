@@ -8,10 +8,8 @@ import '../../node_module/font-awesome/css/font-awesome.css';*/
 
 
 class Footer extends Component {
-
 	render() {
 		return(
-
 			<footer className="row">
 				<section className="col-md-offset-5 col-sm-offset-5">
 					<span className="fa fa-facebook"></span>
