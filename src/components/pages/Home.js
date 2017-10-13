@@ -6,18 +6,19 @@ import ProgressBar from 'bootstrap-progress-bar';
 class Home extends Component
 {
 	render(){
-		return(
+		return (
 			<div className="container-fluid" id="home">	
 				<section className="wrapper-home row">
-					<article className="col-md-offset-4 introduction">
-						<h2>welcom to my portfolio</h2>
-						<br/><br/>
-						<h1>i'am web developer</h1>
-						<h2>Based in paris</h2>
+					<article className="col-md-offset-3 col-sm-offset-3 col-xs-offset-3 col-xs-6 introduction">
+						<h1>Bienvenue</h1>
+						<br/>
+						<h2>Je m'appelle Feriel abachi</h2>
+						<h1>Je suis <span> Développeur Web </span></h1>
 					</article>
-					<img src={require('../../assets/images/laptop.jpg')} />
+					<img src={require('../../assets/images/po.jpg')} />
 				</section>
-				<div className="container-fluid works">
+				<article className="container-fluid works" id="works">
+					<h1>projets réalisé</h1>
 					<section className="hotel row">
 						<article className="col-md-offset-1 col-md-5">
 							<div className="col-md-12">
@@ -27,48 +28,47 @@ class Home extends Component
 								<img src={require('../../assets/images/works/home.png')} />
 							</div>
 						</article>
-						<article className="col-md-5">
+						<div className="col-md-5">
 							<div className="col-md-12">
 								<img src={require('../../assets/images/works/reception.png')} />
 							</div>
 							<article className="desc-hotel col-md-12">
-								<h1> portfolio</h1>
+								<h2>Hotel</h2>
 								<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p> 
 							</article>
-						</article>
+						</div>
 					</section>
 
 					<section className="parisienne row">
 						<div className="col-md-offset-1 col-md-5">
 							<div className="col-md-12">
-							<img src={require('../../assets/images/works/add-article.png')} />
+								<img src={require('../../assets/images/works/paris.png')} />
 							</div>
 							<div className="col-md-12">
-							<img src={require('../../assets/images/works/blog.png')} />
+								<img src={require('../../assets/images/works/add-article.png')} />
 							</div>
 						</div>
 						<div className="col-md-5">
 							<div className="col-md-12">
-								<img src={require('../../assets/images/works/pro.png')} />
-							</div>
-							<div className="desc-parisienne col-offset-md-1 col-md-10">
-								<h1>Huitieme parisienne</h1>
-								<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser.</p> 
+								<img src={require('../../assets/images/works/paris-2.png')} />
 							</div>
 						</div>
+						<section className="desc-parisienne col-md-offset-1 col-md-10">
+							<h2>Huitieme parisienne</h2>
+							<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser.</p> 
+						</section>
 					</section>
 
 					<section className="portfolio row">
 						<div className="col-md-offset-1 col-md-6">
-							<img src={require('../../assets/images/works/portfolio.png')} />
+							<img src={require('../../assets/images/works/por.png')} />
 						</div>
 						<article className="desc-portfolio col-md-4">
-							<h1> portfolio</h1>
-							Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. 
+							<h2> portfolio</h2>
+							 texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. 
 						</article>
 					</section>
-
-				</div>
+				</article>
 			</div>
 
 		);

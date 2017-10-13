@@ -15,6 +15,7 @@ import About from './components/pages/About';
 import './assets/css/Home.min.css';
 import './assets/css/About.min.css';
 import './assets/css/Contact.min.css';
+import './assets/css/Responsive.min.css';
 
 class App extends Component
 {
@@ -23,10 +24,11 @@ class App extends Component
    		<Router>
     		<div className="App">
       			<Header />
-              
+              <Route exact path="/portfolio/" component={ Home } />
 	      			<Route exact path="/" component={ Home } />
 	      			<Route exact path="/contact" component={ Contact } />
 					    <Route exact path="/about" component={ About } />
+              
             <Footer />
       		</div>
         </Router>

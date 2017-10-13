@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Glyphicon } from 'react-bootstrap';
+import LogoImg from '../../assets/images/logo/logo.png';
+import LogoImgWhite from '../../assets/images/logo/logo_white.png';
+
 
 class Header extends Component 
 {
@@ -12,17 +15,15 @@ class Header extends Component
 		this.initColorHome = this.initColorHome.bind(this);
 	}
 
-	initColorPage ()
+	initColorPage()
 	{
 		var glyph = document.getElementById("glyph");
 		var logo = document.querySelector('#img_logo');
 		var intro = document.querySelector(".introduction");
 
 		glyph.style.color = "white";
-			
-		/*logo.style.src = "../../assets/images/logo/logo.png";
-		var img = logo.setAttribute("src", '../../assets/images/logo/logo_white.png');
-		console.log(logo.style.src);*/
+		logo.setAttribute("src", LogoImgWhite);
+		intro.style.color ="gainsboro";
 	}
 
 	initColorHome ()
@@ -31,7 +32,8 @@ class Header extends Component
 		var logo = document.querySelector('#img_logo');
 		var intro = document.querySelector(".introduction");
 
-		glyph.style.color = "black";			
+		glyph.style.color = "black";
+		logo.setAttribute("src", LogoImg);			
 	}
 
 	displayMenu ()
@@ -62,26 +64,23 @@ class Header extends Component
 		}
 	}
 
-	render(){
+	render() {
 		return(
 			<section className="container-fluid" id="home" /*onLoad={this.initPage}*/ >	
 				<header className="row">
 					<Glyphicon id="glyph" glyph="align-justify" onClick={this.displayMenu}/>
 					<nav id="menu">
 						<ul className="col-offset-md-10">
-							
-							<li><Link to="/" onClick={this.initColorHome}>home</Link></li>
+							<li><Link to="/portfolio"></Link></li>
+							<li><Link to="/" onClick={this.initColorPage}>home</Link></li>
 	        				<li><Link to="/contact" onClick={this.initColorPage} >contact</Link></li>
 	        				<li><Link to="/about" onClick={this.initColorPage}>about</Link></li>
-	        				<li><a>works</a></li>
+	        				<li><a href="/#works" onClick={this.initColorHome}>works</a></li>
 						</ul>
 			 		</nav>
-
 					<div className="logo">
-						<img src= {require('../../assets/images/logo/logo.png')} alt="logo" className="col-offset-md-10" id="img_logo"/>
+						<img src= { LogoImgWhite } alt="logo" className="img-responsive col-offset-md-10" id="img_logo"/>
 					</div>
-
-
 			 		<div className="clear"></div>
 	 			</header>
 	 		</section>	

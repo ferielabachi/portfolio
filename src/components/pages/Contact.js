@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import {FormControl, FormGroup, ControlLabel, HelpBlock, Checkbox, Radio, Button} from 'react-bootstrap';
 import { Glyphicon } from 'react-bootstrap';
 
+var FontAwesome = require('react-fontawesome');
+
+
 
 class Contact extends Component
 {
@@ -30,9 +33,9 @@ class Contact extends Component
 		return (
 			<div className="contact">
 				<div className="container-fluid" id="contact">
-				<div className="background" > <h1>contact</h1> </div>
+				<div className="background"><h1>contact</h1> </div>
 
-				<form className="col-md-offset-1 col-md-6">
+				<form className="col-md-offset-1 col-md-6 col-xs-offset-1 col-xs-10">
 
 					<FormGroup controlId=" formControlsText">
 			          <ControlLabel>Name</ControlLabel>
@@ -58,13 +61,13 @@ class Contact extends Component
 			        </Button>
 		     	 </form>
 
-		     	 <div className="col-md-offset-1 col-md-3 contact-details">
+		     	 <div className="col-md-offset-1 col-md-3 col-xs-offset-1 col-xs-10 contact-details">
 		     	 	<h2>Coordonnées</h2>
 					I’m always looking for new challenges, and ways to explore new horizons.
 					 So i’d love to hear from you and answer any questions you have.
 					 Feel free to contact me for work, or just to get in touch by sending me an email.
-					 <h4>feriel.abachi@gmail.com</h4>
-					 <h4>00.00.00.00</h4>
+					 <h4><span className="fa fa-envelope-o"></span> feriel.abachi@gmail.com</h4>
+					 <h4><span className="fa fa-phone"></span> 00.00.00.00</h4>
 		     	 </div>
 	      		</div>
       		</div>
