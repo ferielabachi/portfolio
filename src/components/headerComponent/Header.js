@@ -17,23 +17,14 @@ class Header extends Component
 
 	initColorPage()
 	{
-		var glyph = document.getElementById("glyph");
-		var logo = document.querySelector('#img_logo');
-		var intro = document.querySelector(".introduction");
+		document.location.reload(true);
 
-		glyph.style.color = "white";
-		logo.setAttribute("src", LogoImgWhite);
-		intro.style.color ="gainsboro";
 	}
 
 	initColorHome ()
 	{
-		var glyph = document.getElementById("glyph");
-		var logo = document.querySelector('#img_logo');
-		var intro = document.querySelector(".introduction");
-
-		glyph.style.color = "black";
-		logo.setAttribute("src", LogoImg);			
+	
+		document.location.reload(true);			
 	}
 
 	displayMenu ()
@@ -75,7 +66,7 @@ class Header extends Component
 							<li><Link to="/portfolio" onClick={ this.initColorPage }>home</Link></li>
 	        				<li><Link to="/portfolio/contact" onClick={ this.initColorPage } >contact</Link></li>
 	        				<li><Link to="/portfolio/about" onClick={ this.initColorPage }>about</Link></li>
-	        				<li><a href="/portfolio/#works" onClick={ this.initColorHome }>works</a></li>
+	        				<li><a href="/portfolio/#works" onClick={ this.initColorPage }>works</a></li>
 						</ul>
 			 		</nav>
 					<div className="logo">
