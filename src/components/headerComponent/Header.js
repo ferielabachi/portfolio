@@ -72,10 +72,10 @@ class Header extends Component
 					<nav id="menu">
 						<ul className="col-offset-md-10">
 							<li><Link to="/portfolio"></Link></li>
-							<li><Link to="/" onClick={this.initColorPage}>home</Link></li>
+							<li><Link to="/home" onClick={this.initColorPage}>home</Link></li>
 	        				<li><Link to="/contact" onClick={this.initColorPage} >contact</Link></li>
 	        				<li><Link to="/about" onClick={this.initColorPage}>about</Link></li>
-	        				<li><a href="/#works" onClick={this.initColorHome}>works</a></li>
+	        				<li><a href="/home/#works" onClick={this.initColorHome}>works</a></li>
 						</ul>
 			 		</nav>
 					<div className="logo">
