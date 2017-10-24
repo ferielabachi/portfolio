@@ -1,9 +1,11 @@
 {
-  "main.css": "static/css/main.59536f5c.css",
-  "main.css.map": "static/css/main.59536f5c.css.map",
-  "main.js": "static/js/main.0c5ac15b.js",
-  "main.js.map": "static/js/main.0c5ac15b.js.map",
+  "main.css": "static/css/main.eacbf99c.css",
+  "main.css.map": "static/css/main.eacbf99c.css.map",
+  "main.js": "static/js/main.ea8b9b0f.js",
+  "main.js.map": "static/js/main.ea8b9b0f.js.map",
+  "static/media/11.jpg": "static/media/11.8977016b.jpg",
   "static/media/add-article.png": "static/media/add-article.4faa6294.png",
+  "static/media/b.jpg": "static/media/b.e3101d16.jpg",
   "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
   "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
@@ -18,8 +20,7 @@
   "static/media/paris-2.png": "static/media/paris-2.99ad57f0.png",
   "static/media/paris.png": "static/media/paris.47b07c47.png",
   "static/media/po.jpg": "static/media/po.317fe96a.jpg",
-  "static/media/por.png": "static/media/por.79e5e0c3.png",
+  "static/media/portfolio.png": "static/media/portfolio.f69e76e0.png",
   "static/media/reception.png": "static/media/reception.66e0a730.png",
-  "static/media/rooms.png": "static/media/rooms.feeec091.png",
-  "static/media/work-office.jpg": "static/media/work-office.a6214a46.jpg"
+  "static/media/rooms.png": "static/media/rooms.feeec091.png"
 }
