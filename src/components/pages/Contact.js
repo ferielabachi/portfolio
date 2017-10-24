@@ -1,10 +1,5 @@
-import react from 'react';
 import React, { Component } from 'react';
-import {FormControl, FormGroup, ControlLabel, HelpBlock, Checkbox, Radio, Button} from 'react-bootstrap';
-import { Glyphicon } from 'react-bootstrap';
-
-var FontAwesome = require('react-fontawesome');
-
+import {FormControl, FormGroup, ControlLabel, Button} from 'react-bootstrap';
 
 
 class Contact extends Component

@@ -1,15 +1,9 @@
-import react from 'react';
 import React, { Component } from 'react';
 import ProgressBar from "bootstrap-progress-bar";
 
-
 class About extends Component
 {
-	constructor(props)
-	{
-		super(props);	
-	}
-
+	
 	render() {
 		return (
 			<div className="container-fluid about" id="about" >
@@ -22,20 +16,20 @@ class About extends Component
 						<h4>HTML5</h4><ProgressBar width="70%"/>
 						<h4>C</h4><ProgressBar width="60%"/>
 						<h4>CSS3</h4><ProgressBar width="50%"/>
-						<h4>BOOSTRAP</h4><ProgressBar width="50%"/>
+						<h4>BOOTSRAP</h4><ProgressBar width="50%"/>
 						<h4>PHP</h4><ProgressBar width="30%"/>
 						<h4>JAVASCRIPT</h4><ProgressBar width="30%"/>
 					</section>
 					<section className="col-md-offset-1 col-md-3 col-xs-offset-1 col-xs-10  tools">
 						<h2>Outils</h2>
-						<h3>Boostrap</h3>
+						<h3>Twig</h3>
 						<h3>Symfony2</h3>
 						<h3>React</h3>
 						<h3>Git</h3>
 						<h3>PhotoShop</h3>
 						<h3>Responsive design</h3>
-						<h3>Mac Enviromenet</h3>
-						<h3>commande line bash</h3>
+						<h3>Environnement mac</h3>
+						<h3>Ligne de commande</h3>
 					</section>
 				</div>
 				<div className="row">
@@ -52,6 +46,8 @@ class About extends Component
 						</p>
 					</section>
 				</div>
+
+				<div className="office-photo"></div>
 
 
 				<div className="row">
@@ -86,7 +82,7 @@ class About extends Component
 					</section>
 				</div>
 
-				<div className="office-photo"></div>
+				<div className="office-photo-second"></div>
 				
 			</div>
 		);

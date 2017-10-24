@@ -1,10 +1,4 @@
 import React, { Component } from 'react';
-import {  Glyphicon } from 'react-bootstrap';
-
-var FontAwesome = require('react-fontawesome');
-
-/*import 'font-awesome/css/font-awesome.css';
-import '../../node_module/font-awesome/css/font-awesome.css';*/
 
 
 class Footer extends Component {

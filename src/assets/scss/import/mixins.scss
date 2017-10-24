@@ -1,0 +1,23 @@
+@mixin fontText($font, $text, $weight, $color)
+{
+	font-family: $font;
+	text-transform: $text;
+	font-weight: $weight;
+	color: $color;
+}
+
+@mixin description 
+{
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	height:300px;	
+	line-height:35px;
+	margin-top:10px;
+}
+
+@mixin office-photo($url_path)
+{
+	height: 400px;
+    background: url($url_path);
+    background-position: center;
+	background-size:cover;
+}

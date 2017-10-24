@@ -1,3 +1,17 @@
+
+/*************
+*** IMPORT ***
+**************/
+
+@import "import/mixins.scss";
+@import "import/variables.scss";
+
+
+/*************
+*** IMPORT ***
+**************/
+
+
 .background
 {
 	height: 400px;
@@ -9,71 +23,15 @@
    margin-bottom: 50px;
 }
 
-.about .about-me h1
-{
-	color:grey;
-	padding-bottom:30px;
-}
-
-.about .skills h2
-{
-	text-align: center;
-	color:grey;
-}
-
-.about .skills h4
-{
-	font-weight:400;
-}
-
-.about .tools h2
-{
-	padding-bottom: 10px;
-	color:grey;
-}
-
-.about .tools h3
-{
-	font-weight: 300;
-}
-
-.about .education
-{
-	//text-align:center;
-	padding-top:100px;
-}
-
-.about .education h3, h4
-{
-	font-weight:300;
-}
-
-.about .education p{
-	color:grey;
-}
-
-.about .education h1
-{
-	padding-bottom:50px;
-	text-align:center;
-	color:grey;
-}
-
 .office-photo
 {
-	height: 400px;
-    /*background: linear-gradient(
-     rgba(0, 0, 0, 0.4), 
-     rgba(0, 0, 0, 0.4)
-   ),url('../images/work-office.jpg')no-repeat;*/
-    background: url('../images/work-office.jpg');
-    background-position: center;
-    margin-top: 150px;
+	@include office-photo('../images/11.jpg');
 }
 
-.office-photo img
+.office-photo-second
 {
-	width: 100%;
+	@include office-photo('../images/b.jpg');
+	margin-top: 100px;
 }
 
 #about 
@@ -81,24 +39,47 @@
 	padding: 0;
 }
 
-.about .education .esgi
+.about
 {
-	border-left: 1px solid grey;
-}
+	section
+	{
+		padding: 50px 0 100px 0;
+	}
 
-.about .education .epitech
-{
-	border-left: 1px solid grey;
-}
+	.about-me h1
+	{
+		color:$color-title;
+		padding-bottom:30px;
+	}
 
-.about .education .tsr
-{
-	border-left: 1px solid grey;
-}
+	.education
+	{
+		padding:100px 0;
+		h1
+		{
+			padding-bottom:50px;
+			text-align:center;
+			color:$color-title;
+		}
+		.esgi, .epitech, .tsr
+		{
+			border-left: $border-left;
+		}
+		h3
+		{
+			font-weight:300;
+		}
+		p
+		{
+			color:$color-title;
+		}
+	}
 
-.about section
-{
-	padding: 50px 0 100px 0;
+	h2 
+	{
+		text-align: center;
+		color:$color-title;
+	}
 }
 
 .progress.active .progress-bar, .progress-bar.active
@@ -110,9 +91,5 @@
 {
 	background-color: whitesmoke;
 	margin-top: 100px;
-}
-
-.about-me
-{
 	text-align: center;
 }
