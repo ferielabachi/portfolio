@@ -62,7 +62,7 @@ class Contact extends Component
 					 So i’d love to hear from you and answer any questions you have.
 					 Feel free to contact me for work, or just to get in touch by sending me an email.
 					 <h4><span className="fa fa-envelope-o"></span> feriel.abachi@gmail.com</h4>
-					 <h4><span className="fa fa-phone"></span> 00.00.00.00</h4>
+					 <h4><span className="fa fa-phone"></span> 06.01.31.63.94</h4>
 		     	 </div>
 	      		</div>
       		</div>

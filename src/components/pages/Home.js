@@ -18,7 +18,7 @@ class Home extends Component
 					<img src={require('../../assets/images/po.jpg')} alt="logo" />
 				</section>
 				<section className="container-fluid works" id="works">
-					<h1>projets réalisé</h1>
+					<h1>projets réalisés</h1>
 					<section className="hotel row">
 						<article className="col-md-offset-1 col-md-5">
 							<div className="col-md-12">
