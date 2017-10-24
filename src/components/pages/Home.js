@@ -37,7 +37,7 @@ class Home extends Component
 								<h3>Développeur Front-end, Hôtel Le Jardin</h3>
 								<p>• Design du site @hotel-le-jardin</p>
 								<p>• Integration html css, En ayant twig comme template</p> 
-								<p>Technologies utilisées : HTML, CSS, Twig, Symfony2, Git</p>
+								<p>Technologies utilisées : HTML, CSS, Twig, Symfony2, Git, Bootstrap</p>
 							</article>
 						</div>
 					</section>
@@ -62,7 +62,7 @@ class Home extends Component
 							      <p>• Mise en place d’un back-office pour add un artcile, en sélectionnant sa catégorie, une photo, contenue et titre</p>
 								  <p>• Mise en place d'une base de donnée relationnelle, ainsi la gestion de la base de données</p>
 								  <p>• Design du site, Intégration HTML et CSS à partir d’une maquette</p>
-								  <p>Technologies utilisées : HTML, CSS, PHP, mySQL, Symfony2, Git</p> 
+								  <p>Technologies utilisées : HTML, CSS, Bootstrap, PHP, mySQL, Symfony2, Git</p> 
 						</section>
 					</section>
 
@@ -75,7 +75,7 @@ class Home extends Component
 							<h3>Développeur Web  portfolio </h3>
 							  <p>• Mise en place d'un environnement de travail React, utilsation de Gulp comme automatiseur de tâches</p>
 							  <p>• Design du site, Intégration en HTML et CSS, utilisation du préprocesseur Sass</p>
-							  <p>Technologies utilisées : HTML, CSS, Javascript, React, Gulp, Git, Sass</p>
+							  <p>Technologies utilisées : HTML, CSS, Bootstrap, Javascript, React, Gulp, Git, Sass</p>
 						</article>
 					</section>
 				</section>
