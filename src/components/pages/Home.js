@@ -72,7 +72,6 @@ class Home extends Component
 						</div>
 						<article className="desc-portfolio col-md-4">
 							<h2> portfolio</h2>
-							<h3>Développeur Web  portfolio </h3>
 							  <p>• Mise en place d'un environnement de travail React, utilsation de Gulp comme automatiseur de tâches</p>
 							  <p>• Design du site, Intégration en HTML et CSS, utilisation du préprocesseur Sass</p>
 							  <p>Technologies utilisées : HTML, CSS, Bootstrap, Javascript, React, Gulp, Git, Sass</p>
