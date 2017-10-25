@@ -34,9 +34,9 @@ class About extends Component
 				<div className="row">
 					<section className="about-me">
 						<h1>A propos de moi</h1>
-						<p>Je m'appelle Fériel Abachi étudiante en Informatique, j'entamme ma 3 eme année en alternance a l'ESGI  
+						<p>Je m'appelle Fériel Abachi étudiante en Informatique, j'entame ma 3 eme année en alternance a l'ESGI  
 						</p>
-						<p>Dans le cadre de mon alternance, je suis a la recherche d'une entreprise mon rythme est de 2 semaines en entreprise, 1 semaine a l'ecole 
+						<p>Dans le cadre de mon alternance, je suis a la recherche d'une entreprise mon rythme est de 2 semaines en entreprise, 1 semaine a l'école 
 						</p>
 					</section>
 				</div>
