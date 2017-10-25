@@ -34,20 +34,14 @@ class About extends Component
 				<div className="row">
 					<section className="about-me">
 						<h1>A propos de moi</h1>
-						<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise 
-						en page avant impression. la composition et la mise en page avant impression. 
+						<p>Je m'appelle Fériel Abachi étudiante en Informatique, j'entamme ma 3 eme année en alternance a l'ESGI  
 						</p>
-						<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise 
-						en page avant impression. 
-						</p>
-						<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise 
-						en page avant impression. 
+						<p>Dans le cadre de mon alternance, je suis a la recherche d'une entreprise mon rythme est de 2 semaines en entreprise, 1 semaine a l'ecole 
 						</p>
 					</section>
 				</div>
 
 				<div className="office-photo"></div>
-
 
 				<div className="row">
 					<section className="education col-md-offset-1">
@@ -55,9 +49,10 @@ class About extends Component
 						<div className="esgi col-md-4">
 							<h3>∞ 2016/2017 ∞</h3>
 							<h4> Bac+3 esgi (2017)</h4>
-							<p>• Évolution et maintenance des sites easylamps.eu et lampevideoprojecteur.fr</p>
-							<p>• Intégration HTML et CSS à partir d’une maquette PhotoShop</p>
-							<p>• Déboggage de code et Refonte des images du site sur PhotoShop</p>
+							<p>• Développeur front-end hotel-lejardin</p>
+							<p>• Développeur web huitieme parisienne</p>
+							<p>• Développeur web pour le portfolio </p>
+							<p>• réalisation d'une application ios, affichage d'une liste de music en utilisant l'api spotify</p>
 							<p>Technologies utilisées : HTML, CSS, mySQL, PhotoShop, Git, Zen Cart</p>
 						</div>
 						<div className="tsr col-md-4">
